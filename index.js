@@ -13,14 +13,7 @@ const format = require('./lib/format');
 async function main() {
   const rawData = await fs.promises.readFile(path.join(__dirname, 'data.txt'), 'utf-8');
   const organizations = parser(rawData);
-
-  /**
-   * If you want to execute below code synchronously without using a worker thread
-   * then replace the line below with this code:
-   *
-   * const submissions = format.toOrganizationsToCalculateMonitorUsageSync(organizations);
-   */
-  const submissions = await format.toOrganizationsToCalculateMonitorUsage(organizations);
+  const submissions = format.toOrganizationsToCalculateMonitorUsageSync(organizations);
   console.log(submissions);
 
   // Add data to spreadsheet
