@@ -28,4 +28,4 @@ npm start
 
 ## Notes
 
-- If you cannot install the Node version above 12.16.3, then checkout to node-old branch and try running the code
+- If you cannot install the Node version above 12.16.3, then checkout to the node-old branch and try running the code
