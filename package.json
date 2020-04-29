@@ -1,0 +1,20 @@
+{
+  "name": "problem-statement",
+  "version": "1.0.0",
+  "description": "Problem statement to group and export the data to .xlsx file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KenySushant",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  },
+  "dependencies": {
+    "parse-json": "^5.0.0",
+    "xlsx": "^0.15.6"
+  }
+}
