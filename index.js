@@ -29,6 +29,7 @@ async function main() {
   xlsx.utils.book_append_sheet(workbook, worksheet, 'Submissions');
 
   // Write to file
+  // Streaming is another option if the date grows bigger
   xlsx.writeFile(workbook, 'Monitors.xlsx');
 }
 
