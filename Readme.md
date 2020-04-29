@@ -23,3 +23,9 @@ npm install
 
 ### Execute the program
 npm start
+
+<br>
+
+## Notes
+
+- If you cannot install the Node version above 12.16.3, then checkout to node-old branch and try running the code
